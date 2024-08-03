@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> document </title>
+<style>
+    .box{
+        background-color: yellow;
+        height: 300px;
+        width: 500px;
+        margin: 50px;
+        padding:10px;
+        border: 1px solid black; 
+       box-shadow:10px 10px 40px 5px #ff3333;
+    }
+
+    .box:hover{
+        background:#ff80ff;
+        box-shadow:0  0 40px 20px #ff3333;
+        border-radius: 20px;
+        border: 4px double black; 
+        transition: 0.5s;
+    }
+
+    .btn{
+      background-color: blue;  
+      color: bisque;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 20px 0 20px 0;
+     }
+
+     .btn:hover{
+        border-radius: 0 20px 0 20px;
+        transition: 1s;
+        background-color:#e60099 ;
+        border: 1px solid black;
+     }
+</style>
+</head>
+<body>
+    <div class="box">  
+      Hello student ,we are learning box model in css.
+      Box model is a theoretical concept the describes how element occupy space on webpage.
+      It is a combination  of  height,width,margin, border, padding and content.
+    </div>
+
+    <button class="btn"> 
+        Click me
+    </button>
+</body>
+</html>
